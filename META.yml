@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-Postmodern-Perl
-version:            0.02
+version:            0.03
 abstract:           Postmodern Perl solves all problems
 author:
     - Frank Wiegand <frank.wiegand@gmail.com>
