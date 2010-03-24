@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-Postmodern-Perl
-version:            0.03
+version:            0.05
 abstract:           Postmodern Perl solves all problems
 author:
     - Frank Wiegand <frank.wiegand@gmail.com>
@@ -11,13 +11,13 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    perl:        5.012
+    perl:        5.014
     Test::More:  0
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by: the author
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4

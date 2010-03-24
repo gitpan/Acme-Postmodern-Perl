@@ -1,3 +1,5 @@
+use 5.014;
+
 use strict;
 use warnings;
 use ExtUtils::MakeMaker;
@@ -16,5 +18,5 @@ WriteMakefile(
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Acme-Postmodern-Perl-*' },
-    MIN_PERL_VERSION    => 5.012,
+    MIN_PERL_VERSION    => 5.014,
 );
