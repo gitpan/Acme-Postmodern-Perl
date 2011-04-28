@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-Postmodern-Perl
-version:            0.05
+version:            0.06
 abstract:           Postmodern Perl solves all problems
 author:
     - Frank Wiegand <frank.wiegand@gmail.com>
@@ -11,7 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    perl:        5.014
+    perl:        5.016
     Test::More:  0
 no_index:
     directory:
